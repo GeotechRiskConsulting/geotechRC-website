@@ -1,5 +1,5 @@
-logo {
-    width: 0.02; /* Ajusta el tamaño según sea necesario */
+.logo {
+    width: 10px; /* Ajusta el tamaño según sea necesario */
     height: auto; /* Mantiene la proporción de la imagen */
 }
 body {
