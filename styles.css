@@ -1,3 +1,7 @@
+logo {
+    width: 150; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
