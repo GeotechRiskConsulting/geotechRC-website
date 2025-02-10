@@ -207,6 +207,14 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
+.blog-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
 .cta-button {
     background-color: #27ae60;
     color: #fff;
