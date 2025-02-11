@@ -228,7 +228,7 @@ nav ul li a {
 
 /* Estilos para la imagen del blog */
 .blog-image {
-    width: 75%;             /* Reduce el tamaño al 75% */
+    width: 95%;             /* Tamaño al 95% */
     max-width: 600px;       /* Limita el ancho máximo */
     height: auto;           /* Mantiene la proporción */
     border-radius: 8px;     /* Bordes redondeados */
