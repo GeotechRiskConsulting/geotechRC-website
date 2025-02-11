@@ -295,6 +295,45 @@ footer {
     font-size: 0.9em;
 }
 
+/* Contenedor de botones de compartir */
+.share-buttons {
+    display: flex;
+    gap: 10px; /* Espacio entre botones */
+    margin: 20px 0; /* Margen arriba y abajo */
+    justify-content: center; /* Centra los botones */
+}
+
+/* Estilos para cada botón */
+.share-button {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%; /* Botones circulares */
+    background-color: #f4f4f4; /* Color de fondo */
+    transition: background-color 0.3s ease; /* Efecto de transición */
+}
+
+.share-button img {
+    width: 24px; /* Tamaño del icono */
+    height: 24px;
+}
+
+/* Colores específicos para cada red social */
+.share-button.whatsapp:hover {
+    background-color: #25d366; /* Verde de WhatsApp */
+}
+
+.share-button.facebook:hover {
+    background-color: #1877f2; /* Azul de Facebook */
+}
+
+.share-button.twitter:hover {
+    background-color: #1da1f2; /* Azul de Twitter */
+}
+
+.share-button.email:hover {
+    background-color: #ea4335; /* Rojo de Gmail */
+}
+
 /* Media Queries para dispositivos móviles */
 @media (max-width: 768px) {
     header h1 {
