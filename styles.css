@@ -330,6 +330,10 @@ footer {
     background-color: #1da1f2; /* Azul de Twitter */
 }
 
+.share-button.linkedin:hover {
+    background-color: #0077b5; /* Azul de LinkedIn */
+}
+
 .share-button.email:hover {
     background-color: #ea4335; /* Rojo de Gmail */
 }
