@@ -92,8 +92,7 @@
     
     <section id="contacto" class="contact">
         <h2>Contacto</h2>
-        <p>Email: contacto@geotechrisk.com</p>
-        <form>
+        <form action="https://formspree.io/f/xrbeolgk" method="POST">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
             
@@ -103,12 +102,16 @@
             <label for="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" required></textarea>
             
+            <!-- Campo oculto para agradecer, va hacia el html gracias.html  -->
+            <input type="hidden" name="_next" value="https://geotechriskconsulting.github.io/geotechRC-website/gracias.html">
+            
             <button type="submit">Enviar</button>
         </form>
     </section>
     
     <footer>
         <p>&copy; 2025 GeoTech Risk Consulting. Todos los derechos reservados.</p>
+        <p>Teleéfono: (+57)3123658571</p>
     </footer>    
     
 </body>
