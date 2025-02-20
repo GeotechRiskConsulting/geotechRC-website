@@ -222,6 +222,7 @@ nav ul li a {
 .reading-time {
     font-size: 0.9em;
     color: #ccc;
+    margin: 10px 0;
 }
 
 .blog-title {
