@@ -207,6 +207,38 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.blog-header h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.reading-time {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.blog-title {
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+.separator {
+    border-bottom: 1px solid #444;
+    margin: 10px 0;
+}
+
+.blog-content {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
 .cta-button {
     background-color: #27ae60;
     color: #fff;
