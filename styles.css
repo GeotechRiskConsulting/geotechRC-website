@@ -328,6 +328,34 @@ footer {
     font-size: 0.9em;
 }
 
+/* Estilos para el botón de WhatsApp */
+.whatsapp-contact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #25d366; /* Color de WhatsApp */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e; /* Color de WhatsApp al hacer hover */
+}
+
 /* Contenedor de botones de compartir */
 .share-buttons {
     display: flex;
